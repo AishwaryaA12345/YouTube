@@ -1,0 +1,43 @@
+.video img{
+    height: 202px;
+    width:360px;
+    border-radius: 10px;
+}
+.videoData{
+    display:flex;
+    flex-wrap:wrap;
+}
+.videoDetails{
+    width:100%;
+}
+.video{
+    width:25%;
+    margin:8px 0px;
+}
+.videoDetails{
+    margin-top: 0px 5px;
+}
+.videoDetails h3,p{
+    margin: 3px;
+}
+.shorts img{
+    height: 302px;
+    width: 192px;
+    border-radius: 10px;
+}
+
+.shorts{
+    display: flex;
+}
+.shortdata{
+    margin:5px;
+}
+.shortdetails h3{
+    width: 192px;
+}
+.shortdetails h3,p{
+    margin:3px;
+}
+.videoDetails a{
+    cursor: pointer;
+}

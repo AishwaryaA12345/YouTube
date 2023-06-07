@@ -1,0 +1,33 @@
+.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 45px;
+  
+}
+.searchbar input{
+  /*dont give padding because it moves the paceholder also*/
+  width: 450px;
+  border-radius: 50px;
+  border: 1px solid gainsboro;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.searchbar input:focus{
+  outline: none;
+  border:1px solid rgb(132, 206, 231)
+}
+.useroptions{
+    width:200px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .useroptions h4{
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 100%;
+  }
